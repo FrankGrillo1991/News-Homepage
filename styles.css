@@ -239,3 +239,60 @@ header a:hover {
     line-height: 26px;
     color: hsl(236, 13%, 42%);
 }
+
+@media (min-width: 768px) {
+    main {
+        display: grid;
+        grid-template-areas: "nav nav" "header new" "top top";
+        column-gap: 1.5rem;
+        row-gap: 3rem;
+    }
+
+    nav {
+        grid-area: nav;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    .nav-list {
+        position: static;
+        height: auto;
+        width: auto;
+        display: flex;
+    }
+
+    .nav-list ul {
+        flex-direction: row;
+        gap: 40px;
+        font-size: 0.9rem;
+        line-height: 26px;
+        padding: 0;
+        width: auto;
+    }
+
+    .nav-list .menu-btn {
+        display: none;
+    }
+
+    header {
+        grid-area: header;
+        padding: 0;
+    }
+
+    header section {
+        margin-bottom: 0;
+    }
+
+    .new {
+        grid-area: new;
+        margin: 0;
+    }
+
+    .top {
+        grid-area: top;
+    }
+}
