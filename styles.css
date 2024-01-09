@@ -1,0 +1,70 @@
+8 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1110px;
+    position: inherit;
+}
+
+nav {
+    padding-top: 1.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav img {
+    height: 28px;
+}
+
+.nav-list {
+    align-self: flex-end;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    position: absolute;
+    right: -1px;
+    display: none;
+    flex-direction: column;
+    left: 0;
+}
+
+.nav-list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 24px;
+    background-color: white;
+    padding: 4rem 1rem;
+    align-self: flex-end;
+    width: 70%;
+    height: 100%;
+}
+
