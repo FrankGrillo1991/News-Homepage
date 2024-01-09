@@ -142,7 +142,7 @@ header p {
 
 header a {
     text-transform: uppercase;
-    color: hsl(36, 100%,99%);
+    color: hsl(36, 100%, 99%);
     background-color: hsl(5, 85%, 63%);
     padding: 1rem 2rem;
     font-weight: 700;
@@ -167,4 +167,75 @@ header a:hover {
     font-weight: 800;
     font-size: 1.3rem;
     line-height: 24px;
+}
+
+.new article {
+    margin: 1.85rem 0;
+}
+
+.new h3 {
+    color: hsl(36, 100%, 99%);
+}
+
+.new h3:hover {
+    color: hsl(35, 77%, 62%);
+    transition: 0.5s all ease;
+}
+
+.new p {
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 26px;
+    color: hsl(233, 8%, 79%);
+}
+
+.new hr {
+    border: none;
+    height: 0.125px;
+    background-color: hsl(236, 13%, 42%);
+}
+
+.top {
+    display: grid;
+    gap: 2rem;
+    padding-bottom: 3rem;
+}
+
+.top article {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.top img {
+    width: 100%;
+}
+
+.top div {
+    display: grid;
+}
+
+.top h3 {
+    color: hsl(233, 8%, 79%);
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 32px;
+}
+
+.top h4 {
+    font-weight: 800;
+    font-size: 1.1rem;
+    line-height: 24px;
+    margin: 12px 0 9px 0;
+}
+
+.top h4:hover {
+    color: hsl(5, 85%, 63%);
+    transition: 0.5s all ease-in;
+}
+
+.top p {
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 26px;
+    color: hsl(236, 13%, 42%);
 }
